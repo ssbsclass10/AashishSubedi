@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Oswald:wght@200&family=Sofia+Sans+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito:wght@200&family=Oswald:wght@200&family=Sofia+Sans+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito:wght@200&family=Oswald:wght@200&family=Roboto:wght@300&family=Sofia+Sans+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&display=swap');
+.body{
+    background-color: black;
+}
+/* Custom styles for the navigation bar */
+
+/* Change background color and text color for the navigation bar */
+.navbar {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+/* Style the navigation links */
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Change the color of the active link */
+.navbar-nav .nav-item.active .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Style the search input and button */
+.navbar-form .form-control {
+    border: none;
+    border-radius: 0;
+}
+
+/* Change the color of the search button */
+.navbar-form .btn {
+    background-color: #ffffff;
+    color: #007BFF;
+    border: none;
+}
+
+/* Change the color of the search button on hover */
+.navbar-form .btn:hover {
+    background-color: #ffffff;
+    color: #0056b3;
+}
+.navbar-brand{
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+.profile{
+    border: 2px solid rgb(180, 61, 61);
+    border-radius: 80%;
+    margin-top: 15%;
+    margin-left: 42%;
+}
+.myintro{
+    margin-left: 7em;
+}
+.name h1{
+    font-weight: bold;
+    margin-left:11em;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.name:hover{
+    opacity: 0.5;
+    color: rgb(218, 130, 245);
+}
+.about:hover{
+    opacity: 0.5;
+    color:brown;
+}
+.about h2{
+    font-family: 'Roboto', sans-serif;
+    margin-left:11em;
+    
+    
+}
+.intro{
+    margin-top:-80px;
+}
+ /*Styling icons*/ 
+
+
+ .fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-left:10px;
+    border-radius: 50%;
+  }
+  
+  .social_media:hover {
+      opacity: 0.7;
+      color: #c3ceddc0;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: yellow;
+    border: 0.5px solid black;
+  }
+  .icons{
+    margin-left: 45%;
+  }
+  /* Styling lowerpage of home */
+  .aboutme h1{
+    margin-top: 36vh;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;;
+  }
